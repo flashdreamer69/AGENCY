@@ -201,6 +201,17 @@
       </footer>
 
    </div>
-   <script src="/script.js"></script>
+   <script>
+      var headerMenu = document.getElementById("headerMenu");
+
+      function showMenu() {
+         headerMenu.style.right = "0";
+      }
+
+      function hideMenu() {
+         headerMenu.style.right = "-60%";
+      }
+   </script>
+   
 </body>
 </html>
