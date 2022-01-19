@@ -18,8 +18,9 @@
       background-color: royalblue;
       width: 170px;
       height: 300px;
+      z-index: 4;
       top:0;
-      right: -50%;
+      right: -60%;
       transition: .5s;
    }
 }
